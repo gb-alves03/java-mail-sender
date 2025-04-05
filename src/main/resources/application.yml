@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: mail-sender
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: "gabrielhalves03@gmail.com"
+    password: "whrv joni kahw nzud"
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
